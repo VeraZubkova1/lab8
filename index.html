@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <style>
+         body { font-family: Times New Roman ; margin: 50px; }
+        .block { margin-bottom: 30px; padding: 20px; border: 1px solid #ccc; }
+        button { padding: 5px 15px; margin-left: 10px; }
+        .result { margin-top: 15px; padding: 10px; background: #f0f0f0; }
+         ul {list-style-type: none; padding-left: 0;}
+    </style>
+</head>
+<body>
+
+    <h1>Лабораторная работа №8</h1>
+     <div class="block">
+        <h3>Проверка на четность</h3>
+        <input type="number" id="num" placeholder="Введите число">
+        <button onclick="isEven()">Проверить</button>
+        <div class="result" id="result1"></div>
+    </div>
+
+    <!-- Вывод массива чисел от 1 до 5 -->
+    <div class="block">
+        <h3>Массив чисел от 1 до 5</h3>
+        <button onclick="massiv()">Показать список</button>
+        <div class="result" id="result2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
